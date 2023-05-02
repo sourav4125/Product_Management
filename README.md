@@ -1,4 +1,4 @@
-#Californium
+
 ## Project - Products Management
 
 ### Key points
