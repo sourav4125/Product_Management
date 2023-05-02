@@ -9,7 +9,7 @@ const isValid = (value) => {
 if (typeof value === "undefined" || value === null || value === "") {
       return false
 }
-if (typeof value === "string" && value.trim().length > 0) {
+if (typeof value === "string") {
       return true
     }
 };
@@ -68,3 +68,8 @@ const isValidQuan = function(quantity){
 
 
 module.exports={isValidName,isValidEmail,isValidNo,isValidPassword,isValidPin,isValid,isValidTitle,isValidPrice,isValidDesc,isValidQuan}
+
+
+
+
+
